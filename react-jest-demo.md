@@ -3,7 +3,7 @@
 
 ## inputNumber组件规划（基本功能，不应用于复杂场景）
 
-源码见react-jest-demo
+源码见[react-jest-demo](https://github.com/zhangping1/zhangping1.github.io/tree/master/react-jest-demo)
 
 ### 功能：
 
