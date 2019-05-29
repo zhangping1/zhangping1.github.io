@@ -191,6 +191,10 @@ describe('InputNumber', () => {
       document.body.appendChild(container);
     });
 
+    afterEach(() => {
+      document.body.removeChild(container);
+    });
+
     test('测试onFocus', () => {
       const handleFocus = jest.fn();
       const wrapper = mount(<InputNumber onFocus={handleFocus} />);
