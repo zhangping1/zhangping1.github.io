@@ -1,0 +1,5 @@
+import { a } from './util';
+
+export default (() => {
+  a();
+});
