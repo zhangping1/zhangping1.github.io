@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --config webpack.config.js",
-    "build": "webpack --mode=development",
+    "build": "rm -rf ./dist && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
